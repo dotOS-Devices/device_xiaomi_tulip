@@ -396,8 +396,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     telephony-ext
 
+
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
+# USB HAL
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.tulip
 
 # TextClassifier
 PRODUCT_PACKAGES += \
@@ -416,10 +421,6 @@ PRODUCT_PACKAGES += \
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.mokee.trust@1.0-service
-
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
 
 # VNDK
 PRODUCT_PACKAGES += vndk-sp
