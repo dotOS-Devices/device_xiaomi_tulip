@@ -9,4 +9,3 @@ allow vendor_toolbox vendor_toolbox_exec:file execute_no_trans;
 
 # Allow vendor_toolbox to read directories in rootfs
 allow vendor_toolbox rootfs:dir r_dir_perms;
-

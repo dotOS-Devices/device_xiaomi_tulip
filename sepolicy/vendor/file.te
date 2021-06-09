@@ -1,49 +1,8 @@
 type ir_dev_file, file_type;
-
 type public_adsprpcd_file, file_type;
 type sysfs_fingerprint, fs_type, sysfs_type;
 type sysfs_touchpanel, fs_type, sysfs_type;
-
-allow ueventd ir_dev_file:chr_file { create setattr };
-
-# DeviceSettings
-type sysfs_fpsinfo, sysfs_type, fs_type;
-type sysfs_headphonegain, sysfs_type, fs_type;
-type sysfs_micgain, sysfs_type, fs_type;
-
-# Hall Switch
-type hall_dev, sysfs_type, fs_type;
 type thermal_data_file, file_type, data_file_type;
 
-# Fastcharge
-type sysfs_fcharge, sysfs_type, fs_type;
-
-# FPS Info
-type sysfs_fps, sysfs_type, fs_type;
-
-# KCAL
-type kcal_dev, sysfs_type, fs_type;
-
-# Smart Charging
-type sysfs_scharge, sysfs_type, fs_type;
-
-# USB Fastcharge
-type sysfs_usbcharge, sysfs_type, fs_type;
-
-# Parallax
-type sysfs_corecontrol, sysfs_type, fs_type;
-type sysfs_vddrestrict, sysfs_type, fs_type;
-type sysfs_msmthermal, sysfs_type, fs_type;
-
-# Audio gain
-type sysfs_egain, sysfs_type, fs_type;
-type sysfs_hgain, sysfs_type, fs_type;
-type sysfs_mgain, sysfs_type, fs_type;
-type sysfs_headgain, sysfs_type, fs_type;
-type sysfs_micgain, sysfs_type, fs_type;
-
-# Torch 
-type sysfs_torch, sysfs_type, fs_type;
-type sysfs_tbrightness, sysfs_type, fs_type;
-type sysfs_chargeled, sysfs_type, fs_type;
-
+# Sockets
+type audio_socket, file_type;
