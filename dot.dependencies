@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "dotOS-Devices/android_device_xiaomi_tulip",
+    "target_path": "device/xiaomi/tulip",
+    "branch": "dot-r",
+    "remote": "github"
+  },
+  {
+    "repository": "okta-10/mystic_kernel_sdm660-4.4",
+    "target_path": "kernel/xiaomi/tulip",
+    "branch": "Mystic-4.4",
+    "remote": "github" 
+  },
+  {
+    "repository": "dotOS-Devices/proprietary_vendor_xiaomi_tulip",
+    "target_path": "vendor/xiaomi/tulip",
+    "branch": "dot-r",
+    "remote": "github"
+  }
+]
