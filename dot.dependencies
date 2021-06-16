@@ -2,7 +2,7 @@
   {
     "repository": "dotOS-Devices/android_device_xiaomi_tulip",
     "target_path": "device/xiaomi/tulip",
-    "branch": "dot-r",
+    "branch": "dot11",
     "remote": "github"
   },
   {
@@ -14,7 +14,7 @@
   {
     "repository": "dotOS-Devices/proprietary_vendor_xiaomi_tulip",
     "target_path": "vendor/xiaomi/tulip",
-    "branch": "dot-r",
+    "branch": "dot11",
     "remote": "github"
   }
 ]
