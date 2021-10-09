@@ -672,11 +672,10 @@ PRODUCT_PACKAGES += \
     OPScreenRecorder
 
 # XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts
+$(call inherit-product-if-exists, vendor/xiaomi/XiaomiParts/xiaomiparts.mk)
 
 PRODUCT_PACKAGES += \
-  init.parts.rc \
+  init.xiaomiparts.rc \
   init.parallax.rc \
   init.parallax.sh \
   init.blur.rc \
